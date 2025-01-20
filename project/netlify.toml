@@ -1,0 +1,6 @@
+[build]
+  functions = "functions"  # This tells Netlify to look for serverless functions in the "functions" folder
+  publish = "public"       # This tells Netlify to serve the frontend files from the "public" folder
+
+[functions]
+  node_bundler = "esbuild"  # Use esbuild for bundling the Python functions
